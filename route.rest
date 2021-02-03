@@ -1,0 +1,31 @@
+GET  http://localhost:3000/fruits
+
+
+###
+GET  http://localhost:3000/fruits/601aaf1fbb6ada5869ca940b
+
+
+###
+POST  http://localhost:3000/fruits
+Content-Type: application/json
+
+{
+    "name" : "Star Fruit",
+    "rating": "5",
+    "review": "Delicious"
+}
+
+
+### 
+PATCH  http://localhost:3000/fruits/601aaf1fbb6ada5869ca940b
+Content-Type: application/json
+
+{
+    "name" : "Strawbery",
+    "rating" : "6",
+    "review" : "Tamarind"
+}
+
+
+###
+DELETE  http://localhost:3000/fruits/601ac3c946a41b9f39e24d30
